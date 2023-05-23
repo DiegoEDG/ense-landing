@@ -16,3 +16,7 @@
 	font-size: 26;
 	font-weight: bold;
 }
+.navlinks a {
+	text-decoration: none;
+	color: white;
+}
