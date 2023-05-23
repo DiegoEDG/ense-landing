@@ -1,0 +1,31 @@
+.main {
+	width: 100%;
+	height: auto;
+	background-color: #0e0510;
+}
+
+.container {
+	width: 1440px;
+	height: 2000px;
+	margin: auto;
+	border: 1px solid white;
+}
+.navbar {
+	padding: 24px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	overflow: hidden;
+}
+.navlinks {
+	display: flex;
+	flex-direction: row;
+}
+.navlinks li {
+	list-style: none;
+	margin-right: 15px;
+	font-size: 26;
+	font-weight: bold;
+}
