@@ -8,5 +8,16 @@
 	width: 1440px;
 	height: 2000px;
 	margin: auto;
-	border: 1px solid white;
+	padding: 24px;
+	z-index: 10;
+}
+.gradient {
+	width: 600px;
+	height: 600px;
+	background: radial-gradient(rgba(255, 7, 139, 0.312), rgba(255, 7, 139, 0.046));
+	border-radius: 100%;
+	filter: blur(2rem);
+	position: absolute;
+	top: -40px;
+	right: 700px;
 }
