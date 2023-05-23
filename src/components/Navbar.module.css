@@ -1,0 +1,19 @@
+.navbar {
+	padding: 24px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	overflow: hidden;
+}
+.navlinks {
+	display: flex;
+	flex-direction: row;
+}
+.navlinks li {
+	list-style: none;
+	margin-right: 15px;
+	font-size: 26;
+	font-weight: bold;
+}
