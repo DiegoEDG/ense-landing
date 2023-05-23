@@ -1,0 +1,27 @@
+.hero {
+	display: flex;
+	flex-direction: row;
+	margin-top: 40px;
+	z-index: 10;
+}
+.text {
+	font-size: 80px;
+	font-weight: bold;
+}
+.paragraph {
+	font-size: 25px;
+	margin-top: 40px;
+}
+.cta {
+	display: flex;
+	width: 210px;
+	height: 75px;
+	background-color: #ff078b;
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	border-radius: 20px;
+	justify-content: center;
+	align-items: center;
+	margin-top: 24px;
+}

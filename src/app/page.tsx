@@ -1,3 +1,4 @@
+import Hero from '@/components/Hero';
 import Navbar from '@/components/Navbar';
 import styles from './home.module.css';
 
@@ -6,8 +7,11 @@ export default function Home() {
 		<div className={styles.main}>
 			<div className={styles.container}>
 				<Navbar />
-				<main>Main</main>
-				<footer>Footer</footer>
+				{/* <div className={styles.gradient} /> */}
+				<main>
+					<Hero />
+				</main>
+				<footer></footer>
 			</div>
 		</div>
 	);
