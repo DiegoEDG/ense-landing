@@ -6,6 +6,7 @@ import Link from 'next/link';
 const Hero = () => {
 	return (
 		<div className={style.hero}>
+			<div className={style.gradient} />
 			<div>
 				<>
 					<h2 className={style.text}>Llevamos tu marca a otro nivel con </h2>

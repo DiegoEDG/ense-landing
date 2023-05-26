@@ -7,7 +7,6 @@ export default function Home() {
 		<div className={styles.main}>
 			<div className={styles.container}>
 				<Navbar />
-				{/* <div className={styles.gradient} /> */}
 				<main>
 					<Hero />
 				</main>
