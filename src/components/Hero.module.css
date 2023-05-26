@@ -10,11 +10,13 @@
 	z-index: 10;
 	line-height: 85px;
 	position: relative;
+	color: white;
 }
 .paragraph {
 	font-size: 25px;
 	margin-top: 40px;
 	position: relative;
+	color: white;
 }
 .cta {
 	display: flex;
