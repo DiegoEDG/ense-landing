@@ -1,3 +1,4 @@
+import Cta from '@/components/CTA';
 import Hero from '@/components/Hero';
 import Cta from '@/components/Cta';
 import Navbar from '@/components/Navbar';
@@ -8,7 +9,6 @@ export default function Home() {
 		<div className={styles.main}>
 			<div className={styles.container}>
 				<Navbar />
-				{/* <div className={styles.gradient} /> */}
 				<main>
 					<Hero />
 					<Cta />

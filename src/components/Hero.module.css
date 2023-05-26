@@ -5,13 +5,18 @@
 	z-index: 10;
 }
 .text {
-	font-size: 80px;
+	font-size: 75px;
 	font-weight: bold;
-	color: #ffff;
+	z-index: 10;
+	line-height: 85px;
+	position: relative;
+	color: white;
 }
 .paragraph {
 	font-size: 25px;
 	margin-top: 40px;
+	position: relative;
+	color: white;
 }
 .cta {
 	display: flex;
@@ -24,5 +29,15 @@
 	border-radius: 20px;
 	justify-content: center;
 	align-items: center;
-	margin-top: 24px;
+	margin-top: 40px;
+}
+.gradient {
+	width: 600px;
+	height: 600px;
+	background: radial-gradient(rgba(255, 7, 139, 0.312), rgba(255, 7, 139, 0.046));
+	border-radius: 100%;
+	filter: blur(2rem);
+	position: absolute;
+	top: -40px;
+	right: 700px;
 }
