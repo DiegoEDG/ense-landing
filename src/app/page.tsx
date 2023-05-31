@@ -1,7 +1,7 @@
-import Cta from '@/components/CTA';
-import Hero from '@/components/Hero';
-import Cta from '@/components/Cta';
 import Navbar from '@/components/Navbar';
+import Hero from '@/components/Hero';
+import Cta from '@/components/CTA';
+import Service from '@/components/Services'
 import styles from './home.module.css';
 
 export default function Home() {
@@ -12,6 +12,7 @@ export default function Home() {
 				<main>
 					<Hero />
 					<Cta />
+					<Service />
 				</main>
 				<footer></footer>
 			</div>
