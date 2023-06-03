@@ -14,13 +14,13 @@ const Cta = () => {
 						En Ense Studio, nos apasiona trabajar juntos y crear soluciones <br /> inovadoras para nuestros clientes. Al
 						elegir trabajar con nosotros,
 						<br />
-						eliges un equipo de profesionales que ama lonque hace y que esta comprometido con llevar tu marca a lo mas
-						alto{' '}
+						eliges un equipo de profesionales que ama lo que hace y que esta comprometido con llevar tu marca a lo más
+						alto.{' '}
 					</p>
 
 					<Link href="#" style={{ textDecoration: 'none' }}>
 						<div className={style.link}>
-							<p>Conoce mas</p>
+							<p>Conoce más</p>
 							<Image className={style.arrow} width={42} height={22} src={arrow} alt="arrow" />
 						</div>
 					</Link>

@@ -1,52 +1,87 @@
-.container{
-    width:1392px;
-    height: 294px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 28px;
-    
+.container {
+	width: 1392px;
+	height: 294px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 28px;
 }
-.upperSection{
-    width: 1392px;
-   
-    display: flex;
-    justify-content:space-between;
-    margin-bottom: 20px; 
+.upperSection {
+	width: 1392px;
 
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
 }
 
-.paragraph{
-    width: 680px;
-    font-weight: 500;
-    font-size: 70px;
-    line-height: 85px;
-    color: #ffffff;
+.paragraph {
+	width: 680px;
+	font-weight: 500;
+	font-size: 70px;
+	line-height: 85px;
+	color: #ffffff;
 }
-.link{
-    width: 510px;
-    height:170px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    background: #FF078B;
-    border-radius: 25px;
-    font-weight: 600;
-    font-size: 50px;
-    color: #ffffff;
-    margin-right: 52px;
-    
+.link {
+	width: 510px;
+	height: 170px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
+	background: #ff078b;
+	border-radius: 25px;
+	font-weight: 600;
+	font-size: 50px;
+	color: #ffffff;
+	margin-right: 52px;
 }
-.icons{
-    width:314px;
-    height:50px;
-    display: flex;
-    justify-content: space-between;
-    align-self: flex-start;
-    
-    align-items: center;
+.icons {
+	width: 314px;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-self: flex-start;
 
+	align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+	.container {
+		width: 350px;
+		height: auto;
+		padding: 20px;
+		margin-top: 10px;
+	}
+
+	.upperSection {
+		width: 350px;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-bottom: 10px;
+	}
+
+	.paragraph {
+		width: 350px;
+		font-size: 35px;
+		line-height: 50px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.link {
+		width: 350px;
+		height: 100px;
+		font-size: 30px;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+
+	.icons {
+		width: 350px;
+		height: auto;
+		align-self: center;
+		justify-content: center;
+		margin-top: 10px;
+	}
 }

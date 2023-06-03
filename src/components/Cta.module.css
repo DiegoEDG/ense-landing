@@ -58,3 +58,50 @@
 	font-size: 30px;
 	color: white;
 }
+
+@media only screen and (max-width: 600px) {
+	.cta {
+		width: 350px;
+		height: auto;
+		padding: 20px;
+	}
+
+	.background {
+		width: 100%;
+		height: auto;
+		padding: 20px;
+		border-radius: 10px;
+	}
+
+	.text {
+		width: 100%;
+		height: auto;
+		font-size: 35px;
+		line-height: 30px;
+	}
+
+	.paragraphButton {
+		flex-direction: column;
+		align-items: flex-start;
+		margin-top: 0px;
+		padding-top: 0px;
+		font-size: 20px;
+	}
+
+	.paragraph {
+		width: 100%;
+		height: auto;
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	.link {
+		width: 100%;
+		height: auto;
+		padding: 20px;
+		font-size: 20px;
+		margin-top: 20px;
+		text-align: center;
+		margin-right: 5px;
+	}
+}

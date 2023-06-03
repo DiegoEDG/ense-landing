@@ -1,72 +1,100 @@
-.title{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    font-size: 50px;
-    font-weight: bold;
-    margin: 20px 0px;
-    color: #ffffff;
+.title {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-size: 50px;
+	font-weight: bold;
+	margin: 20px 0px;
+	color: #ffffff;
 }
-.serviceContainer{
-    width: 1392px;
+.serviceContainer {
+	width: 1392px;
 	height: 416px;
 	display: flex;
-    justify-content: space-between;
-	align-items:center;
-    font-size: 24px;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 24px;
 
-    overflow: hidden;
-    
+	overflow: hidden;
 }
 
-
-.backgroundElipse{
-position:absolute;
-height: 186px;
-width: 80px;
-background: radial-gradient(78% 78% at 50% 50%, rgba(255, 7, 139, 0.532) 0%, rgba(255, 7, 139, 0.2) 100%);
-filter: blur(50px);
-transform: rotate(-110.34deg);
-top: 10px;
-z-index: -1;
-
+.backgroundElipse {
+	position: absolute;
+	height: 186px;
+	width: 80px;
+	background: radial-gradient(78% 78% at 50% 50%, rgba(255, 7, 139, 0.532) 0%, rgba(255, 7, 139, 0.2) 100%);
+	filter: blur(50px);
+	transform: rotate(-110.34deg);
+	top: 10px;
+	z-index: -1;
 }
 
-.servicesCards{
-    border: 1px solid rgba(255, 7, 139, 0.5);
-    width: 416px;
-    height: 416px;
+.servicesCards {
+	border: 1px solid rgba(255, 7, 139, 0.5);
+	width: 416px;
+	height: 416px;
 
-    display: flex;
-    z-index: 10;
-    
+	display: flex;
+	z-index: 10;
 }
 
-.content{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.content {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
-
-.img{
-    fill: white;
+.img {
+	fill: white;
 }
 
-.subtitle{
-    margin-top: 45px;
-    color: #ffffff;
-    font-weight: bold;
-
-
+.subtitle {
+	margin-top: 45px;
+	color: #ffffff;
+	font-weight: bold;
 }
-.paragraph{
-    margin-top: 10px;
-    color:#C4C4C4;
-    font-weight: 400;
-    margin: 0px 32px 0px 32px;
-    text-align: center;
+.paragraph {
+	margin-top: 10px;
+	color: #c4c4c4;
+	font-weight: 400;
+	margin: 0px 32px 0px 32px;
+	text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+	.title {
+		font-size: 35px;
+		margin: 10px 0px;
+		width: 350px;
+	}
+
+	.serviceContainer {
+		width: 350px;
+		height: auto;
+		flex-wrap: wrap;
+		justify-content: center;
+		font-size: 20px;
+	}
+
+	.backgroundElipse {
+		display: none;
+	}
+
+	.servicesCards {
+		width: 90%;
+		height: auto;
+		margin-bottom: 20px;
+		padding: 20px;
+	}
+
+	.subtitle {
+		margin-top: 30px;
+		font-size: 30px;
+	}
+
+	.paragraph {
+		margin: 10px 0px;
+	}
+}
