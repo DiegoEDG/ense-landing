@@ -4,11 +4,11 @@
     justify-content: center;
     font-size: 50px;
     font-weight: bold;
-    margin: 17px 0px 10px 0px;
+    margin: 20px 0px;
     color: #ffffff;
 }
 .serviceContainer{
-    width: 1376px;
+    width: 1392px;
 	height: 416px;
 	display: flex;
     justify-content: space-between;
@@ -20,14 +20,15 @@
 }
 
 
-.detail{
+.backgroundElipse{
 position:absolute;
 height: 186px;
 width: 80px;
-background: radial-gradient(78% 78% at 50% 50%, rgba(255, 7, 139, 0.4) 0%, rgba(255, 7, 139, 0.2) 100%);
+background: radial-gradient(78% 78% at 50% 50%, rgba(255, 7, 139, 0.532) 0%, rgba(255, 7, 139, 0.2) 100%);
 filter: blur(50px);
 transform: rotate(-110.34deg);
 top: 10px;
+z-index: -1;
 
 }
 
@@ -35,7 +36,9 @@ top: 10px;
     border: 1px solid rgba(255, 7, 139, 0.5);
     width: 416px;
     height: 416px;
+
     display: flex;
+    z-index: 10;
     
 }
 

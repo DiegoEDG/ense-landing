@@ -18,7 +18,7 @@ const Services = () => {
                     <div className={style.content}>
 
                     <Image className={style.img} width={70} height={72} src={service.img} alt="service" />
-                    <div className={style.detail}></div>
+                    <div className={style.backgroundElipse}></div>
                     
                     <p className={style.subtitle}>{service.title}</p>
                     <div className={style.paragraph}>{service.paragraph}</div>
