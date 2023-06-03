@@ -1,0 +1,97 @@
+.container{
+    position: relative;
+    width:1392px;
+    height: 944px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.title{
+
+    width:1392px ;
+    height: 85px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 20px 0px;
+}
+
+.backgroundElipse{
+    position:absolute;
+    height: 533px;
+    width: 495px;
+    background: radial-gradient(78% 78% at 50% 50%, rgba(255, 7, 139, 0.254) 0%, rgba(255, 7, 139, 0.2) 100%);
+    filter: blur(50px);
+    top: 270px;
+    left:400px;
+
+    /* z-index: -1; */
+    
+    }
+
+.cards{
+
+    
+    width: 629px;
+    height: 943px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #16061C;
+    border-radius: 25px 25px 0px 0px;
+    border: 1px solid #514953; 
+    border-top: none; 
+    text-align: center;
+    z-index: 1;
+}
+
+.img{
+    border-top: 1px solid #514953; 
+    border-bottom: none; 
+    border-radius: 25px 25px 0px 0px;
+
+}
+
+.cardTitle{
+
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 61px;
+    
+    color: #ffffff;
+}
+
+.paragraph{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    margin: 0px 20px 0px 20px;
+    color: #C4C4C4;
+}
+
+.link{
+    width: 298px;
+    height: 37px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    color: #ffffff;
+
+}
+.arrow{
+    margin-left: 10px;
+}

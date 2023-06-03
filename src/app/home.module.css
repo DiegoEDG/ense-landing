@@ -6,8 +6,10 @@
 
 .container {
 	width: 1440px;
-	height: 2000px;
+	height: 3200px;
 	margin: auto;
 	padding: 24px;
 	z-index: 10;
 }
+
+
