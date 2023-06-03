@@ -12,6 +12,14 @@
 	position: relative;
 	color: white;
 }
+.textRed {
+	font-size: 75px;
+	font-weight: bold;
+	z-index: 10;
+	line-height: 85px;
+	position: relative;
+	color: #FF078B;
+}
 .paragraph {
 	font-size: 25px;
 	margin-top: 40px;
@@ -32,6 +40,7 @@
 	margin-top: 40px;
 }
 .gradient {
+	position:absolute;
 	width: 600px;
 	height: 600px;
 	background: radial-gradient(rgba(255, 7, 139, 0.312), rgba(255, 7, 139, 0.046));

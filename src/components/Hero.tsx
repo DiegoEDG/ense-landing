@@ -10,7 +10,7 @@ const Hero = () => {
 			<div>
 				<>
 					<h2 className={style.text}>Llevamos tu marca a otro nivel con </h2>
-					<h2 className={style.text}>Diseños increibles</h2>
+					<h2 className={style.textRed}>Diseños increibles|</h2>
 				</>
 				<p className={style.paragraph}>
 					Nuestro enfoque personalizado en diseño y marketing digital nos permite llevar tu marca a otro nivel en un
