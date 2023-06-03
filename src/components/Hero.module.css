@@ -89,3 +89,316 @@
 		right: -100px;
 	}
 }
+
+@keyframes typing {
+	0.0000%,
+	1.1538% {
+		content: '';
+	}
+	1.1538%,
+	2.3077% {
+		content: 'd';
+	}
+	2.3077%,
+	3.4615% {
+		content: 'di';
+	}
+	3.4615%,
+	4.6154% {
+		content: 'dis';
+	}
+	4.6154%,
+	5.7692% {
+		content: 'dise';
+	}
+	5.7692%,
+	6.9231% {
+		content: 'diseñ';
+	}
+	6.9231%,
+	8.0769% {
+		content: 'diseño';
+	}
+	8.0769%,
+	9.2308% {
+		content: 'diseños';
+	}
+	9.2308%,
+	10.3846% {
+		content: 'diseños ';
+	}
+	10.3846%,
+	11.5385% {
+		content: 'diseños i';
+	}
+	11.5385%,
+	12.6923% {
+		content: 'diseños in';
+	}
+	12.6923%,
+	13.8462% {
+		content: 'diseños inc';
+	}
+	13.8462%,
+	15.0000% {
+		content: 'diseños incr';
+	}
+	15.0000%,
+	16.1538% {
+		content: 'diseños incre';
+	}
+	16.1538%,
+	17.3077% {
+		content: 'diseños increi';
+	}
+	17.3077%,
+	18.4615% {
+		content: 'diseños increib';
+	}
+	18.4615%,
+	19.6154% {
+		content: 'diseños increibl';
+	}
+	19.6154%,
+	20.7692% {
+		content: 'diseños increible';
+	}
+	20.7692%,
+	21.9231% {
+		content: 'diseños increibles';
+	}
+
+	31.9231%,
+	33.0769% {
+		content: '';
+	}
+	33.0769%,
+	34.2308% {
+		content: 'm';
+	}
+	34.2308%,
+	35.3846% {
+		content: 'ma';
+	}
+	35.3846%,
+	36.5385% {
+		content: 'mar';
+	}
+	36.5385%,
+	37.6923% {
+		content: 'mark';
+	}
+	37.6923%,
+	38.8462% {
+		content: 'marke';
+	}
+	38.8462%,
+	40.0000% {
+		content: 'market';
+	}
+	40.0000%,
+	41.1538% {
+		content: 'marketi';
+	}
+	41.1538%,
+	42.3077% {
+		content: 'marketin';
+	}
+	42.3077%,
+	43.4615% {
+		content: 'marketing';
+	}
+	43.4615%,
+	44.6154% {
+		content: 'marketing ';
+	}
+	44.6154%,
+	45.7692% {
+		content: 'marketing e';
+	}
+	45.7692%,
+	46.9231% {
+		content: 'marketing ef';
+	}
+	46.9231%,
+	48.0769% {
+		content: 'marketing efe';
+	}
+	48.0769%,
+	49.2308% {
+		content: 'marketing efec';
+	}
+	49.2308%,
+	50.3846% {
+		content: 'marketing efect';
+	}
+	50.3846%,
+	51.5385% {
+		content: 'marketing efecti';
+	}
+	51.5385%,
+	52.6923% {
+		content: 'marketing efectiv';
+	}
+	52.6923%,
+	53.8462% {
+		content: 'marketing efectivo';
+	}
+
+	63.8462%,
+	65.0000% {
+		content: '';
+	}
+	65.0000%,
+	66.1538% {
+		content: 'f';
+	}
+	66.1538%,
+	67.3077% {
+		content: 'fo';
+	}
+	67.3077%,
+	68.4615% {
+		content: 'fot';
+	}
+	68.4615%,
+	69.6154% {
+		content: 'foto';
+	}
+	69.6154%,
+	70.7692% {
+		content: 'fotog';
+	}
+	70.7692%,
+	71.9231% {
+		content: 'fotogr';
+	}
+	71.9231%,
+	73.0769% {
+		content: 'fotogra';
+	}
+	73.0769%,
+	74.2308% {
+		content: 'fotograf';
+	}
+	74.2308%,
+	75.3846% {
+		content: 'fotografi';
+	}
+	75.3846%,
+	76.5385% {
+		content: 'fotografí';
+	}
+	76.5385%,
+	77.6923% {
+		content: 'fotografía';
+	}
+	77.6923%,
+	78.8462% {
+		content: 'fotografía ';
+	}
+	78.8462%,
+	80.0000% {
+		content: 'fotografía p';
+	}
+	80.0000%,
+	81.1538% {
+		content: 'fotografía pr';
+	}
+	81.1538%,
+	82.3077% {
+		content: 'fotografía pro';
+	}
+	82.3077%,
+	83.4615% {
+		content: 'fotografía prof';
+	}
+	83.4615%,
+	84.6154% {
+		content: 'fotografía profe';
+	}
+	84.6154%,
+	85.7692% {
+		content: 'fotografía profes';
+	}
+	85.7692%,
+	86.9231% {
+		content: 'fotografía profesi';
+	}
+	86.9231%,
+	88.0769% {
+		content: 'fotografía profesio';
+	}
+	88.0769%,
+	89.2308% {
+		content: 'fotografía profesion';
+	}
+	89.2308%,
+	90.3846% {
+		content: 'fotografía profesiona';
+	}
+	90.3846%,
+	91.5385% {
+		content: 'fotografía profesional';
+	}
+}
+
+@keyframes blink {
+	0%,
+	100% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+}
+
+.textRed {
+	--caret: currentcolor;
+}
+
+.textRed::before {
+	content: '';
+	animation: typing 13.5s infinite;
+}
+
+.textRed::after {
+	content: '';
+	border-right: 1px solid var(--caret);
+	animation: blink 0.5s linear infinite;
+}
+
+.textRed.thick::after {
+	border-right: 1ch solid var(--caret);
+}
+
+.textRed.nocaret::after {
+	border-right: 0;
+}
+
+@media (prefers-reduced-motion) {
+	.textRed::after {
+		animation: none;
+	}
+
+	@keyframes sequencePopup {
+		0%,
+		100% {
+			content: 'Diseños increibles';
+		}
+		25% {
+			content: 'Marketing Efectivo';
+		}
+		50% {
+			content: 'Fotografía profesionales';
+		}
+		75% {
+			content: 'Managment impactante';
+		}
+	}
+
+	.textRed::before {
+		content: 'Diseños increibles';
+		animation: sequencePopup 12s linear infinite;
+	}
+}
