@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import styles from './Navbar.module.css';
-import logo from './/../../public/EnseLogoPNG.png';
-import Link from 'next/link';
+import logo from './/../../public/logo.png';
 
 const Navbar = () => {
 	return (
