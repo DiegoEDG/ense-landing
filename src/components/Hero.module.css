@@ -47,8 +47,12 @@
 	border-radius: 100%;
 	filter: blur(2rem);
 	position: absolute;
-	top: -40px;
-	right: 700px;
+	top: -100px;
+	right: 950px;
+}
+
+.image {
+	z-index: 1;
 }
 
 @media only screen and (max-width: 600px) {
@@ -83,16 +87,15 @@
 	}
 
 	.gradient {
-		width: 400px;
-		height: 400px;
+		width: 200px;
+		height: 200px;
 		top: 20px;
-		right: -100px;
+		right: 0px;
 	}
 
-	.image{
-	
-	width:320px;
-	height:320px;
+	.image {
+		width: 320px;
+		height: 320px;
 	}
 }
 
