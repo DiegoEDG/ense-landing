@@ -18,12 +18,12 @@ const Cta = () => {
 						alto{' '}
 					</p>
 
-					<Link href="#" style={{ textDecoration: 'none' }}>
+					{/* <Link href="#" style={{ textDecoration: 'none' }}>
 						<div className={style.link}>
 							<p>Conoce mas</p>
 							<Image className={style.arrow} width={42} height={22} src={arrow} alt="arrow" />
 						</div>
-					</Link>
+					</Link> */}
 				</div>
 			</div>
 		</div>
