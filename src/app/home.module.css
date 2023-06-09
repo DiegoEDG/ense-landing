@@ -11,3 +11,16 @@
 	padding: 24px;
 	z-index: 10;
 }
+
+@media only screen and (max-width: 600px) {
+	.main {
+		width: 390px;
+		overflow: hidden;
+		height: auto;
+	}
+	.container {
+		width: 390px;
+		overflow: hidden;
+		height: auto;
+	}
+}
