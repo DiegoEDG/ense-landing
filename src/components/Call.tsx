@@ -1,9 +1,9 @@
-import style from './Cta.module.css';
+import style from './Call.module.css';
 import Link from 'next/link';
 import arrow from '../../public/arrow.svg';
 import Image from 'next/image';
 
-const Cta = () => {
+const Call = () => {
 	return (
 		<div className={style.cta}>
 			<div className={style.background}>
@@ -30,4 +30,4 @@ const Cta = () => {
 	);
 };
 
-export default Cta;
+export default Call;

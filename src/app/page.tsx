@@ -1,6 +1,6 @@
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
-import Cta from '@/components/Cta';
+import Call from '@/components/Call';
 import Service from '@/components/Services';
 import CS from '@/components/CS';
 import Footer from '@/components/Footer';
@@ -13,7 +13,7 @@ export default function Home() {
 				<Navbar />
 				<main>
 					<Hero />
-					<Cta />
+					<Call />
 					<Service />
 					<CS />
 				</main>
