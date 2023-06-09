@@ -20,7 +20,7 @@ const Hero = () => {
 					<div className={style.cta}>Contactanos!</div>
 				</Link>
 			</div>
-			<Image className="image" width={620} height={600} src={woman} alt="logo" />
+			<Image className={style.image} width={620} height={600} src={woman} alt="logo" />
 		</div>
 	);
 };

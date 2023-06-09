@@ -16,7 +16,7 @@ const CS = () => {
 						<p className={style.cardTitle}>{item.title}</p>
 						<p className={style.paragraph}>{item.paragraph}</p>
 
-						<Link href="#" style={{ textDecoration: 'none' }}>
+						<Link href={item.href} style={{ textDecoration: 'none' }}>
 							<div className={style.link}>
 								<p>Caso de estudio</p>
 								<Image className={style.arrow} width={42} height={22} src={arrow} alt="arrow" />

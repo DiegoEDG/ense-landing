@@ -88,6 +88,12 @@
 		top: 20px;
 		right: -100px;
 	}
+
+	.image{
+	
+	width:320px;
+	height:320px;
+	}
 }
 
 @keyframes typing {

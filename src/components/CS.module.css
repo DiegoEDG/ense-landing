@@ -93,6 +93,7 @@
 		width: 350px;
 		height: auto;
 		overflow: hidden;
+
 	}
 
 	.title {
@@ -108,9 +109,22 @@
 
 	.cards {
 		width: 350px;
-		height: auto;
+		height:auto;
 		margin-bottom: 20px;
-		padding: 15px;
+		border-radius: 25px 25px 0px 0px;
+		border: 1px solid #514953;
+		border-top: none;
+	}
+
+	.img{
+		width: 350px;
+		height: 370px;
+		object-fit:fill;
+		border: 1px solid #514953;
+		border-bottom: none;
+		border-radius: 25px 25px 0px 0px;
+		background: #16061c;
+
 	}
 
 	.cardTitle {
@@ -122,6 +136,8 @@
 		font-size: 20px;
 		line-height: 22px;
 		margin: 0px 10px;
+		padding: 15px;
+
 	}
 
 	.link {
@@ -130,6 +146,8 @@
 		font-size: 24px;
 		line-height: 30px;
 		margin-top: 30px;
-		margin-bottom: 10px;
+		margin-bottom: 25px;
+		padding: 15px;
+
 	}
 }
