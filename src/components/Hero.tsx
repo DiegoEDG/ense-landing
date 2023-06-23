@@ -2,6 +2,7 @@ import Image from 'next/image';
 import style from './Hero.module.css';
 import woman from './/../../public/CreativeWoman.svg';
 import Link from 'next/link';
+import { WA_URL } from '@/constants/contact';
 
 const Hero = () => {
 	return (
@@ -16,7 +17,7 @@ const Hero = () => {
 					Nuestro enfoque personalizado en diseño y marketing digital nos permite llevar tu marca a otro nivel en un
 					mundo cada vez más competitivo.
 				</p>
-				<Link href="#" style={{ textDecoration: 'none' }}>
+				<Link href={WA_URL} target="_blank" style={{ textDecoration: 'none' }}>
 					<div className={style.cta}>Contactanos!</div>
 				</Link>
 			</div>

@@ -11,7 +11,9 @@ const CS = () => {
 				<div className={style.backgroundElipse}></div>
 				{studyCase.map((item) => (
 					<div className={style.cards} key={item.id}>
-						<Image className={style.img} width={629} height={495} src={item.img} alt="study case" />
+						<Link href={item.href} style={{ textDecoration: 'none' }}>
+							<Image className={style.img} width={629} height={495} src={item.img} alt="study case" />
+						</Link>
 
 						<p className={style.cardTitle}>{item.title}</p>
 						<p className={style.paragraph}>{item.paragraph}</p>
