@@ -11,10 +11,10 @@ const Call = () => {
 
 				<div className={style.paragraphButton}>
 					<p className={style.paragraph}>
-						En Ense Studio, nos apasiona trabajar juntos y crear soluciones <br /> inovadoras para nuestros clientes. Al
+						En Ense Studio nos apasiona trabajar juntos y crear soluciones <br /> innovadoras para nuestros clientes. Al
 						elegir trabajar con nosotros,
 						<br />
-						eliges un equipo de profesionales que ama lo que hace y que esta comprometido con llevar tu marca a lo mas
+						eliges un equipo de profesionales que ama lo que hace y que está comprometido con llevar tu marca a lo más
 						alto.{' '}
 					</p>
 
