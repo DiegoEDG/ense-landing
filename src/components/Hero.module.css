@@ -66,7 +66,7 @@
 	.text {
 		font-size: 35px;
 		line-height: 50px;
-		width: 390px;
+		width: 370px;
 	}
 
 	.textRed {
@@ -77,9 +77,11 @@
 	.paragraph {
 		font-size: 20px;
 		margin-top: 20px;
+		margin-bottom: 30px;
 	}
 
 	.cta {
+		margin-bottom: 30px;
 		width: 150px;
 		height: 50px;
 		font-size: 20px;
@@ -158,23 +160,23 @@
 	}
 	16.1538%,
 	17.3077% {
-		content: 'diseños increi';
+		content: 'diseños increí';
 	}
 	17.3077%,
 	18.4615% {
-		content: 'diseños increib';
+		content: 'diseños increíb';
 	}
 	18.4615%,
 	19.6154% {
-		content: 'diseños increibl';
+		content: 'diseños increíbl';
 	}
 	19.6154%,
 	20.7692% {
-		content: 'diseños increible';
+		content: 'diseños increíble';
 	}
 	20.7692%,
 	21.9231% {
-		content: 'diseños increibles';
+		content: 'diseños increíbles';
 	}
 
 	31.9231%,
