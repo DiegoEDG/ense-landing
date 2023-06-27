@@ -7,15 +7,12 @@ const Call = () => {
 	return (
 		<div className={style.cta}>
 			<div className={style.background}>
-				<p className={style.text}>Proveemos el mejor servicio con ideas fuera de lo común.</p>
+				<p className={style.text}>Innovamos para tu marca y creamos para ti</p>
 
 				<div className={style.paragraphButton}>
 					<p className={style.paragraph}>
-						En Ense Studio nos apasiona trabajar juntos y crear soluciones <br /> innovadoras para nuestros clientes. Al
-						elegir trabajar con nosotros,
-						<br />
-						eliges un equipo de profesionales que ama lo que hace y que está comprometido con llevar tu marca a lo más
-						alto.{' '}
+						En ENSE nos importa destacar tu marca en el mercado, posicionándola y generando estrategia para que tu
+						producto llegue a más personas. ¡Eligenos! y descubre cómo trabajamos tu marca con calidad y estrategia.
 					</p>
 
 					{/* <Link href="#" style={{ textDecoration: 'none' }}>

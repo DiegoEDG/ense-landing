@@ -6,7 +6,7 @@ import style from './CS.module.css';
 const CS = () => {
 	return (
 		<>
-			<div className={style.title}>Experiencias que hemos creado</div>
+			<div className={style.title}>Experiencias ENSE</div>
 			<div className={style.container}>
 				<div className={style.backgroundElipse}></div>
 				{studyCase.map((item) => (

@@ -14,8 +14,8 @@ const Hero = () => {
 					<span className={style.textRed}></span>
 				</>
 				<p className={style.paragraph}>
-					Nuestro enfoque personalizado en diseño y marketing digital nos permite llevar tu marca a otro nivel en un
-					mundo cada vez más competitivo.
+					Sabemos la importancia de tu marca. Por eso trabajamos en estrategias únicas para llegar a más personas. Con
+					procesos actuales y óptimos.
 				</p>
 				<Link href={WA_URL} target="_blank" style={{ textDecoration: 'none' }}>
 					<div className={style.cta}>Contactanos!</div>

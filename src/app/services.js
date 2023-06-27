@@ -16,7 +16,7 @@ const services = [
 		img: serviceImg2,
 		title: 'Marketing',
 		paragraph:
-			'Ofrecemos soluciones personalizadas para tus necesidades de marketing digital para ayudarte a destacar en un mercado cada vez más competitivo.'
+			'Generamos estrategias para tu público, generando más leads, ventas con enfoque, posicionamiento y diferenciación para tu marca.'
 	},
 
 	{
