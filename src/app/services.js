@@ -16,7 +16,7 @@ const services = [
 		img: serviceImg2,
 		title: 'Marketing',
 		paragraph:
-			'Generamos estrategias para tu público, generando más leads, ventas con enfoque, posicionamiento y diferenciación para tu marca.'
+			'Hacemos estrategias para tu público, generando más leads, ventas con enfoque, posicionamiento y diferenciación para tu marca.'
 	},
 
 	{

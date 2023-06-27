@@ -10,7 +10,7 @@ const Footer = () => {
 	return (
 		<div className={style.container}>
 			<div className={style.upperSection}>
-				<p className={style.paragraph}>¿Quiéres que tu marca aparezca aquí?</p>
+				<p className={style.paragraph}>¿Quieres que tu marca aparezca aquí?</p>
 
 				<Link href={WA_URL} target="_blank" style={{ textDecoration: 'none' }}>
 					<div className={style.link}>
